@@ -115,7 +115,7 @@ def merge(number_lst, left, right, mid):
 
 def plot_bars(number_lst):
     plt.bar(list(range(amount)), number_lst)
-    plt.pause(0.2)  # Adjust the pause time as needed
+    plt.pause(0.2)
     plt.clf()
 
 def main():
@@ -149,6 +149,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Plot the final sorted list
 plt.bar(list(range(amount)), numbers)
 plt.show()
